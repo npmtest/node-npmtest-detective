@@ -1,6 +1,6 @@
 # npmtest-detective
 
-#### test coverage for  [detective (v4.5.0)](https://github.com/substack/node-detective#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-detective.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-detective) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-detective.svg)](https://travis-ci.org/npmtest/node-npmtest-detective)
+#### basic test coverage for  [detective (v4.5.0)](https://github.com/substack/node-detective#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-detective.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-detective) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-detective.svg)](https://travis-ci.org/npmtest/node-npmtest-detective)
 
 #### find all require() calls by walking the AST
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-detective/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-detective/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-detective/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-detective/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-detective/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-detective/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-detective/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-detective/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-detective/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-detective/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-detective/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-detective/build/coverage.html/index.html)
 
@@ -82,7 +82,8 @@
     "scripts": {
         "test": "tap test/*.js"
     },
-    "version": "4.5.0"
+    "version": "4.5.0",
+    "bin": {}
 }
 ```
 
